@@ -1,0 +1,9 @@
+[package]
+name = "fixed_window_roller_trouble"
+version = "0.1.0"
+authors = ["brian-cook <brian.cook@gremlin.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4.14"
+log4rs = { version = "1.0.0", features = ["background_rotation", "gzip"] }
